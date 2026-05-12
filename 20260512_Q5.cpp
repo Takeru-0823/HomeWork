@@ -2,8 +2,6 @@
 #include "Car.h"
 using namespace std;
 
-const int NAME_MAX = 16;
-
 int main()
 {
 	car car;
