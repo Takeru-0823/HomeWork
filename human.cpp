@@ -9,6 +9,11 @@ human::human(char* n, double h, double w)
 	weight = w;
 }
 
+human::human(const human& other)
+{
+
+}
+
 void human::grow_fat(double value)
 {
 	weight += value;

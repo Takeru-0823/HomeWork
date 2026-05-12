@@ -10,6 +10,7 @@ class human
 
 public:
 	human(char* n, double h, double w);
+	human(const human& other);
 
 	void drawName()
 	{

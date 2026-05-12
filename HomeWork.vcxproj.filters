@@ -13,19 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\20260512">
+      <UniqueIdentifier>{3bc2f264-8226-403a-ade6-e3914a3753b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\20260526">
+      <UniqueIdentifier>{d4fc8a2f-859a-4c31-b66b-a1c4b1105580}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20260512_Q2.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="20260512_Q4.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="human.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="20260512_Q2.cpp">
+      <Filter>ソース ファイル\20260512</Filter>
+    </ClCompile>
+    <ClCompile Include="20260512_Q4.cpp">
+      <Filter>ソース ファイル\20260512</Filter>
+    </ClCompile>
     <ClCompile Include="20260512_Q5.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\20260512</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
