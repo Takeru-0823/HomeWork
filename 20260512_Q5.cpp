@@ -2,13 +2,13 @@
 #include "Car.h"
 using namespace std;
 
-int main()
-{
-	car car;
-
-	car.move();
-
-	cout << "x座標は " << car.checkPosition().x << "y座標は " << car.checkPosition().y <<endl;
-
-	car.refueling(50);
-}
+//int main()
+//{
+//	car car;
+//
+//	car.move();
+//
+//	cout << "x座標は " << car.checkPosition().x << "y座標は " << car.checkPosition().y <<endl;
+//
+//	car.refueling(50);
+//}

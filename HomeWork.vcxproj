@@ -130,6 +130,9 @@
     <ClCompile Include="20260512_Q2.cpp" />
     <ClCompile Include="20260512_Q4.cpp" />
     <ClCompile Include="20260512_Q5.cpp" />
+    <ClCompile Include="20260526_Q4.cpp" />
+    <ClCompile Include="20260526_Q5.cpp" />
+    <ClCompile Include="Car.cpp" />
     <ClCompile Include="human.cpp" />
   </ItemGroup>
   <ItemGroup>
