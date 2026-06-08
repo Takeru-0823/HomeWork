@@ -19,6 +19,9 @@
     <Filter Include="ソース ファイル\20260526">
       <UniqueIdentifier>{d4fc8a2f-859a-4c31-b66b-a1c4b1105580}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\20260609">
+      <UniqueIdentifier>{7ed3eaaa-82c4-4405-b144-af6387830471}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20260512_Q2.cpp">
@@ -42,12 +45,27 @@
     <ClCompile Include="20260526_Q4.cpp">
       <Filter>ソース ファイル\20260526</Filter>
     </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>ソース ファイル\20260609</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>ソース ファイル\20260609</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>ソース ファイル\20260609</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\20260609</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Human.h">
+    <ClInclude Include="Character.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Car.h">
+    <ClInclude Include="Hero.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
