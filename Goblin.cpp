@@ -1,17 +1,19 @@
 #include <iostream>
-#include "Character.h"
 #include "Goblin.h"
 using namespace std;
 
 Gonblin::Gonblin(int h, int a)
 {
-	hp = h;
-	attack = a;
+	if (h < 0) hp = 0;
+	else hp = h;
+
+	if (a < 0) attack = 0;
+	else attack = a;
 }
 
 void Gonblin::Attack(Character& target)
 {
-	cout << "UŒ‚I" << endl;
+	cout << "ƒSƒuƒŠƒ“‚ÌUŒ‚I" << endl;
 	int damage = attack + (rand() % 5 - 2);
 	target.TakeDamage(damage);
 }

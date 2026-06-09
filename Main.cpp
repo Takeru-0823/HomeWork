@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "Character.h"
 #include "Hero.h"
 #include "Goblin.h"
 using namespace std;
@@ -9,6 +8,13 @@ using namespace std;
 void ShowHP(const Character& character)
 {
 	cout << "HP " << character.GetHP() << endl;
+}
+
+void AttackTurn(Character& attacker, Character& target)
+{
+	attacker.Attack(target);
+	cout << "相手の";
+	ShowHP(target);
 }
 
 int main()
@@ -22,9 +28,7 @@ int main()
 	while (true)
 	{
 		cout << "プレイヤーのターン" << endl;
-		hero.Attack(goblin);
-		cout << "ゴブリン";
-		ShowHP(goblin);
+		AttackTurn(hero, goblin);
 		cout << endl;
 
 		if (goblin.GetHP() <= 0)
@@ -34,9 +38,7 @@ int main()
 		}
 
 		cout << "ゴブリンのターン" << endl;
-		goblin.Attack(hero);
-		cout << "プレイヤー";
-		ShowHP(hero);
+		AttackTurn(goblin, hero);
 		cout << endl;
 
 		if (hero.GetHP() <= 0)
